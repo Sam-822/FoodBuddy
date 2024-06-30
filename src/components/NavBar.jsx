@@ -10,7 +10,9 @@ const NavBar = (props) => {
 		<div>
 			<nav className="navbar navbar-expand-lg bg-body-tertiary">
 				<div className="container-fluid">
-					<Link className="navbar-brand" to="/">FoodBuddy</Link>
+					<Link className="navbar-brand" to="/">
+						<img className='mx-3' src="/logo.svg" width={'30px'} alt="" />
+						FoodBuddy</Link>
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
@@ -29,22 +31,22 @@ const NavBar = (props) => {
 									More Cuisines
 								</a>
 								<ul className="dropdown-menu">
-							<li className="nav-item"><Link className="nav-link" to="/filipino">Filipino</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/french">French</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/greek">Greek</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/irish">Irish</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/italian">Italian</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/jamaican">Jamaican</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/japanese">Japanese</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/kenyan">Kenyan</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/malaysian">Malaysian</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/moroccan">Moroccan</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/polish">Polish</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/portuguese">Portuguese</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/russian">Russian</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/spanish">Spanish</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/thai">Thai</Link></li>
-									
+									<li className="nav-item"><Link className="nav-link" to="/filipino">Filipino</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/french">French</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/greek">Greek</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/irish">Irish</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/italian">Italian</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/jamaican">Jamaican</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/japanese">Japanese</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/kenyan">Kenyan</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/malaysian">Malaysian</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/moroccan">Moroccan</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/polish">Polish</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/portuguese">Portuguese</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/russian">Russian</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/spanish">Spanish</Link></li>
+									<li className="nav-item"><Link className="nav-link" to="/thai">Thai</Link></li>
+
 
 								</ul>
 							</li>

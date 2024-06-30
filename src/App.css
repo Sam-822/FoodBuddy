@@ -3,3 +3,16 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+.custom-input{
+	width: 85%;
+}
+
+@media screen and (max-width: 800px) {
+	.row{
+		flex-direction: column;
+	}
+	.custom-input{
+		width: 90%;
+	}
+}

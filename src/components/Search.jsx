@@ -32,14 +32,14 @@ const Search = () => {
 				<div className="col">
 
 					<h2>Search by names</h2>
-					<div className="input-group mb-3" style={{ width: "75%" }}>
+					<div className="input-group mb-3 custom-input">
 						<input type="text" name='name' className="form-control" placeholder="Find Reciepes." aria-label="Enter Dish" aria-describedby="button-addon2" value={query.name} onChange={handleChange} />
 						<button type="button" className="btn btn-primary" onClick={handleNameClick}>Search</button>
 					</div>
 				</div>
 				<div className="col">
 				<h2>Search by Ingrediants</h2>
-					<div className="input-group mb-3" style={{ width: "75%" }}>
+					<div className="input-group mb-3 custom-input">
 						<input type="text" name='ingredient' className="form-control" placeholder="Find Ingredients." aria-label="Enter Dish" aria-describedby="button-addon2" value={query.ingredient} onChange={handleChange} />
 						<button type="button" className="btn btn-primary" onClick={handleIngredientClick}>Search</button>
 					</div>
@@ -58,6 +58,7 @@ const Search = () => {
 							/>
 						);
 					})}
+					{!reciepe && <h3>No Reciepes to show</h3>}
 			</div>
 		</div>
 	);
