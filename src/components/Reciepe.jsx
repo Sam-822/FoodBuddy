@@ -18,7 +18,7 @@ const Reciepe = (props) => {
 	},[]);
 	
 	return (
-		<div className='container d-flex justify-content-evenly' style={{flexWrap:'wrap'}}>
+		<div className='container d-flex justify-content-evenly min-vh-100' style={{flexWrap:'wrap'}}>
 			{reciepe.map((element)=>{
 				return(
 					<ReciepeItem key={element.idMeal} id ={element.idMeal} title={element.strMeal} image={element.strMealThumb} />
